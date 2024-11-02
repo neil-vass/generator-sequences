@@ -1,8 +1,12 @@
 {
   "name": "sequences",
   "version": "1.0.0",
-  "description": "A Sequence datatype, to make workng with generator expressions simpler.",
+  "description": "A Sequence datatype, to make working with generator expressions simpler.",
   "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "typescript": "next"
+  },
   "scripts": {
     "test": "vitest"
   },
