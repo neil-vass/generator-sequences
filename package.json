@@ -1,5 +1,5 @@
 {
-  "name": "sequences",
+  "name": "generator-sequences",
   "version": "1.0.0",
   "description": "A Sequence datatype, to make working with generator expressions simpler.",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/neil-vass/sequences.git"
+    "url": "git+ssh://git@github.com/neil-vass/generator-sequences.git"
   },
   "author": "Neil Vass",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/neil-vass/sequences/issues"
+    "url": "https://github.com/neil-vass/generator-sequences/issues"
   },
-  "homepage": "https://github.com/neil-vass/sequences#readme",
+  "homepage": "https://github.com/neil-vass/generator-sequences#readme",
   "devDependencies": {
     "@types/node": "^22.8.6",
     "vitest": "^2.1.4"

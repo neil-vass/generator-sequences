@@ -1,2 +1,2 @@
-export * from "./src/sequence";
-export * from "./src/filereader";
+export {Sequence} from "./src/sequence.js"
+export {linesFromFile, singleLineFromFile} from "./src/filereader.js";
