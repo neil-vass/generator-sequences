@@ -1,6 +1,6 @@
 {
   "name": "generator-sequences",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Sequence datatype, to make working with generator expressions simpler.",
   "exports": "index.js",
   "types": "index.d.ts",
