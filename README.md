@@ -7,7 +7,7 @@ a generator, and it might be async (e.g. keep requesting the next
 line from a file or other IO-bound operation we want to await).
 
 Users of this type should assume it's async. If it's an array
-or other simple type it will return immediately, but it's safe
+or other simple type it will be ready immediately, but it's safe
 to await its values anyway.
 
 This kind of support is likely to be part of the language soon!
