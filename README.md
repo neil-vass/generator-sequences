@@ -17,3 +17,6 @@ https://github.com/tc39/proposal-iterator-helpers
 https://github.com/tc39/proposal-async-iterator-helpers
 
 Until it's available, I've written this helper module.
+
+For more background on this package, see:
+https://neil-vass.com/how-do-i-do-that-in-typescript-generator-expressions/

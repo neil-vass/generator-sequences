@@ -15,11 +15,11 @@
 export class Sequence<T> {
     constructor(protected readonly seq: Iterable<T> | AsyncIterable<T>) {}
 
-    async *[Symbol.asyncIterator]() : AsyncGenerator<T, void, void> {
-        for await(const item  of this.seq) {
-            yield item;
-        }
+async *[Symbol.asyncIterator]() : AsyncGenerator<T, void, void> {
+    for await(const item of this.seq) {
+        yield item;
     }
+}
 
     // Convenience method, to run through a whole sequence and collect it
     // into an array. Only use this if you know the sequence is finite and
